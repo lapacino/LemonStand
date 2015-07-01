@@ -13,6 +13,8 @@
 		34F901F51B4302A3000A7051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F901F41B4302A3000A7051 /* Images.xcassets */; };
 		34F901F81B4302A3000A7051 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F901F61B4302A3000A7051 /* LaunchScreen.xib */; };
 		34F902041B4302A3000A7051 /* LemonStandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F902031B4302A3000A7051 /* LemonStandsTests.swift */; };
+		34F9020E1B430B2B000A7051 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9020D1B430B2B000A7051 /* Supplies.swift */; };
+		34F902101B431457000A7051 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9020F1B431457000A7051 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		34F901FD1B4302A3000A7051 /* LemonStandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F902021B4302A3000A7051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F902031B4302A3000A7051 /* LemonStandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStandsTests.swift; sourceTree = "<group>"; };
+		34F9020D1B430B2B000A7051 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		34F9020F1B431457000A7051 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				34F901ED1B4302A3000A7051 /* AppDelegate.swift */,
 				34F901EF1B4302A3000A7051 /* ViewController.swift */,
+				34F902111B432799000A7051 /* Model */,
 				34F901F11B4302A3000A7051 /* Main.storyboard */,
 				34F901F41B4302A3000A7051 /* Images.xcassets */,
 				34F901F61B4302A3000A7051 /* LaunchScreen.xib */,
@@ -110,6 +115,15 @@
 				34F902021B4302A3000A7051 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F902111B432799000A7051 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34F9020F1B431457000A7051 /* Price.swift */,
+				34F9020D1B430B2B000A7051 /* Supplies.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34F901F01B4302A3000A7051 /* ViewController.swift in Sources */,
+				34F902101B431457000A7051 /* Price.swift in Sources */,
+				34F9020E1B430B2B000A7051 /* Supplies.swift in Sources */,
 				34F901EE1B4302A3000A7051 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
